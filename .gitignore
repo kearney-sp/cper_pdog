@@ -131,4 +131,9 @@ dmypy.json
 # large directories
 train_tiles/
 train_polys/
+
+# not needed
+old_scripts/
+
+# dask directories
 dask-worker-space/
