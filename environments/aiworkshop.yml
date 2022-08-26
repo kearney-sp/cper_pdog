@@ -1,0 +1,17 @@
+name: aiworkshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - keras
+  - scipy
+  - imageio
+  - ipykernel
+  - scikit-learn
+  - scikit-image
+  - python=3.8
+  - matplotlib
+  - pandas
+  - seaborn
+  - hdf5

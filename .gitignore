@@ -131,6 +131,7 @@ dmypy.json
 # large directories
 train_tiles/
 train_polys/
+cnn_*/
 
 # not needed
 old_scripts/

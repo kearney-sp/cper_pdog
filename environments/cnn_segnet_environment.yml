@@ -1,0 +1,17 @@
+name: cnn_segnet_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-learn
+  - scikit-image
+  - pytorch
+  - matplotlib
+  - tqdm
+  - torchvision 
+  - torchaudio
+  - cudatoolkit=11.3
+  - ipykernel
+  - jupyter
+  - ipywidgets

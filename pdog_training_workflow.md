@@ -32,3 +32,23 @@
     * What do we do about inconsistent points/polygons across delineators?
     * Should delineators be mapping the same areas?
 * Are we training the CNN on individual grid cells within each mound?
+
+
+### Detailed steps
+
+#### Organize ground data
+
+#### Preprocess and tile imagery
+
+#### Delineate burrows (create training data)
+
+#### Train CNN
+
+##### YOLOv5
+* Organize training polygons into YOLOv5 training structure
+    * 
+* Create YOLOv5 conda environment
+    * create new environment (conda create --prefix /project/cper_neon_aop/conda_envs/cnn_yolo_env)
+    * install python and jupyterlab (conda install -c conda-forge python=3.9 jupyterlab)
+    * install PyTorch >= 1.7 (conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch)
+    * install YOLOv5 (pip install -r https://raw.githubusercontent.com/ultralytics/yolov5/master/requirements.txt)
