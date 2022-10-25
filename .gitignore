@@ -132,6 +132,8 @@ dmypy.json
 train_tiles/
 train_polys/
 cnn_*/
+maps/
+results_figs/
 
 # not needed
 old_scripts/
