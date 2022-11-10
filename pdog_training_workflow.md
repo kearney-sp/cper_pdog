@@ -35,6 +35,12 @@
 
 
 ### Detailed steps
+* Create 30 x 30 m tiles
+    * Run cper_pdog_uas_tiling.ipynb
+* Assign tiles to individual trainers
+    * Run cper_pdog_assign_tile.ipynb
+* 
+
 
 #### Organize ground data
 

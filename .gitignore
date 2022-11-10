@@ -140,3 +140,6 @@ old_scripts/
 
 # dask directories
 dask-worker-space/
+
+# potentially large files
+*.tif
