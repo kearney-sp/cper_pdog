@@ -143,3 +143,4 @@ dask-worker-space/
 
 # potentially large files
 *.tif
+*.nc
