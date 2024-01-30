@@ -128,7 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# large directories
+# large directories and files
 train_tiles/
 train_polys/
 cnn_*/
@@ -138,9 +138,10 @@ results_figs/
 # not needed
 old_scripts/
 
-# dask directories
+# dask directories and associated files
 dask-worker-space/
 
 # potentially large files
 *.tif
 *.nc
+core.*
